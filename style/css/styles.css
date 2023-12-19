@@ -11,7 +11,6 @@ body {
     position: absolute;
     margin-left: 150px;
     transition: 0.5s;
-    pointer-events: none;
     /* Smooth movement */
 }
 
@@ -55,9 +54,6 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-    background-color: #FAF9F6;
-}
 
 .gif_container {
     display: flex;
